@@ -4,9 +4,11 @@ print("*********************")
 print("guess what the number")
 print("*********************")
 
-secret_number = 42
+secret_number = random.randrange(1,101)
 continue_game =True
 attempts = 1
+
+print(secret_number)
 
 while(continue_game):
     print("Attempt: {}".format(attempts))
