@@ -31,7 +31,8 @@ def play():
                 print("You failed! Your kick was smaller than the secret number")
         print("Try again")
         attempts += 1
-
+if(__name__ == "__main__"):
+    play()
     #for rodada in range(1,11): for comum
     #   print("Teste for",rodada)
     #for rodada in range(1,11,2): O último valor define o valor a ser incrementado
