@@ -1,5 +1,2 @@
-.idea
-.idea/games.iml
-.idea/misc.xml
-__pycache__
-__pycache__/divination.cpython-39.pyc
+__pycache__/
+?idea/
