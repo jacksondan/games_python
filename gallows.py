@@ -4,15 +4,11 @@ def play():
     print("****** Gallows game *******")
     print("***************************")
 
-    key_word = "banana".strip().upper()
-    quantity = len(key_word)
-    letter_list = []
+    key_word = "bananada".strip().upper()
+    letter_list = ["_" for letter in key_word]
     hanged = False
     correct_word = False
     chances = 10
-
-    for i in range(0,quantity):
-        letter_list.append("_")
 
     while(not hanged and not correct_word):
         print()
