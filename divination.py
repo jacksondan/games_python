@@ -1,7 +1,7 @@
 import random
 def play():
     print("***************************")
-    print("** guess what the number **")
+    print("** Guess what the number **")
     print("***************************")
 
     secret_number = random.randrange(1,101)
