@@ -11,8 +11,7 @@ def play():
     chances = 10
 
     while(not hanged and not correct_word):
-        print()
-        print("**You have {} chances".format(chances))
+        print("\n**You have {} chances".format(chances))
         print("Secret Word")
         print(letter_list)
 
