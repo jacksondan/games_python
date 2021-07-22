@@ -1,10 +1,14 @@
-
+import random
 def play():
     print("***************************")
     print("****** Gallows game *******")
     print("***************************")
 
-    key_word = "bananada".strip().upper()
+    file = open("files/key_words.txt","r")
+    key_word_list = [line for line in file]
+    key_index = random.randrange(0,len(key_word_list))
+
+    key_word = key_word_list[key_index].strip().upper()
     letter_list = ["_" for letter in key_word]
     hanged = False
     correct_word = False
