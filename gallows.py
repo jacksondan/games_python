@@ -7,6 +7,7 @@ def play():
     file = open("files/key_words.txt","r")
     key_word_list = [line for line in file]
     key_index = random.randrange(0,len(key_word_list))
+    file.close()
 
     key_word = key_word_list[key_index].strip().upper()
     letter_list = ["_" for letter in key_word]
